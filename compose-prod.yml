@@ -7,6 +7,6 @@ services:
     build: .
     restart: always #change if you don't want your container restarting
     networks:
-      - proxy-net:
+      proxy-net:
     environment:
       - NODE_ENV=production
